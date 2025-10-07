@@ -31,14 +31,14 @@ cd [your_repo_name]
 __Step 2__: Create Environment and Install Dependencies
 This step creates the virtual environment and installs the required packages (python-dotenv) in one workflow.
 
-# 1. Create the environment
+## 1. Create the environment
 python3 -m venv venv
 
-# 2. Activate the environment (REQUIRED) and install dependencies
-# On macOS/Linux (use one line):
+## 2. Activate the environment (REQUIRED) and install dependencies
+### On macOS/Linux (use one line):
 source venv/bin/activate && pip install -r requirements.txt
 
-# On Windows (Command Prompt - use two lines):
+### On Windows (Command Prompt - use two lines):
 .\venv\Scripts\activate
 pip install -r requirements.txt
 
@@ -58,7 +58,7 @@ For this script to run automatically by any user, it requires a Personal Access 
 ### Configure the .env file:
 Update the .env file with your GitHub username and the token you just created.
 
-# .env
+## .env
 GITHUB_USERNAME=your_actual_username
 GH_TOKEN=your_personal_access_token_here  # Paste your PAT here
 
